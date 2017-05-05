@@ -14,7 +14,14 @@ npm install -g react-native-cli
 Make sure you have Xcode installed (available on the Mac App Store)
 
 Clone project:
+```
+git clone https://github.com/jverrone3/food-swiper.git && cd food-swiper
+```
 
+Start the app!
+```
+react-native run-ios
+```
 
 
 
