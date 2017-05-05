@@ -2,7 +2,7 @@
 Tinder-like app for finding nearby restaurants and discovering new recipes. Built with React Native
 
 ## Getting Started
-Install Node, Watchman, and Yarn using Homebrew:
+Install Node and Watchman using Homebrew:
 ```
 brew install node
 brew install watchman
