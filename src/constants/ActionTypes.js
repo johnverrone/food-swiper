@@ -1,0 +1,7 @@
+export const SWIPE = 'SWIPE'
+export const DISLIKE = 'DISLIKE'
+export const LIKE = 'LIKE'
+
+export const FETCH_FOOD_REQUEST = 'FETCH_FOOD_REQUEST'
+export const FETCH_FOOD_FAILURE = 'FETCH_FOOD_FAILURE'
+export const FETCH_FOOD_SUCCESS = 'FETCH_FOOD_SUCCESS'
