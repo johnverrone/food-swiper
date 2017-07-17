@@ -10,6 +10,15 @@ const visibleIndex = (state = 0, action) => {
   }
 }
 
+const location = (state = {}, action) => {
+  switch(action.type) {
+    case types.UPDATE_LOCATION:
+      return action.location      
+    default:
+      return state
+  }
+}
+
 const food = (state = {}, action) => {
   switch(action.type) {
     case types.DISLIKE:
@@ -57,6 +66,7 @@ const foodList = (state = {
 
 const rootReducer = combineReducers({
   foodList,
+  location,
   visibleIndex
 })
 

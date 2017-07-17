@@ -78,3 +78,10 @@ export const fetchFood = (coordinates) => {
       })
     }
 }
+
+export const updateLocation = (loc) => {
+  return {
+    type: types.UPDATE_LOCATION,
+    location
+  }
+} 

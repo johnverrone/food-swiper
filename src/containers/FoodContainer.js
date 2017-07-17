@@ -38,6 +38,19 @@ const mapDispatchToProps = (dispatch) => {
 }
 
 class FoodContainer extends Component {
+  constructor(props) {
+    super(props)
+    navigator.geolocation.getCurrentPosition(
+      (position) => {
+        let initialPosition = JSON.stringify(position)
+        console.log(initialPosition)
+        // this.props.dispatch(updateLocation(initialPosition))
+      },
+      (error) => alert(JSON.stringify(error)),
+      {enableHighAccuracy: true, timeout: 20000, maximumAge: 1000}
+    )
+  }
+
   render() {
     return (
       <View style={styles.container}>

@@ -6,6 +6,7 @@ import FoodContainer from './containers/FoodContainer'
 
 let initialState = {
   visibleIndex: 0,
+  location: {},
   foodList: {
     isFetching: false,
     items: [{
